@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+body {
+    font-family: 'Roboto';
+}
+
+.banner {
+    height: 500px;
+    background-image: url('./../img/fondo.jpeg');
+    background-size: cover;
+}
+
+.btn-custom {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: rgb(153, 79, 223);
+}
+
+a.nav-link.active {
+    color: blueviolet !important;
+}
+
+a.nav-link:hover {
+    color: blueviolet !important;
+}
+
+.text-shadow--grey {
+    text-shadow: 2px 2px 5px grey;
+}
+
+.text-shadow--black {
+    text-shadow: 2px 2px 5px black;
+}
